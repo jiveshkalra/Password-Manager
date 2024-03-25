@@ -22,6 +22,14 @@ In today's digital age, it's important to have strong and unique passwords for a
 - Easy-to-use interface
 - Encrypted storage for enhanced security
 - Cross-platform compatibility
+## Screenshots 
+![image](https://github.com/jiveshkalra/Password-Manager/assets/127482713/d5523005-5633-4b31-a637-0c2d566c9b35)
+![image](https://github.com/jiveshkalra/Password-Manager/assets/127482713/015de09a-e448-48d4-8cb2-588c10bd4d4a)
+![image](https://github.com/jiveshkalra/Password-Manager/assets/127482713/cc6c7708-fab0-49f6-9d1e-12b9f803c2ec) 
+![image](https://github.com/jiveshkalra/Password-Manager/assets/127482713/eddb368e-e6ce-4a15-9878-0435c75a1935)
+![image](https://github.com/jiveshkalra/Password-Manager/assets/127482713/0610b855-ff88-4e85-a94d-381151fb3704)
+
+
 
 ## Installation
 
@@ -48,7 +56,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Features to Implement  ->
+## Features to Implement  
 - [ ] Chrome Extension 
 - [ ] UI
 - [ ] Export passwords feature 
