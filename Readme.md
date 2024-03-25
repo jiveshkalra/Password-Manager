@@ -6,7 +6,7 @@ A simple and secure Open Source password manager built with Python. It allows yo
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [How it Works](#howitworks)
+- [How it Works](#how-it-works)
 - [ScreenShots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
