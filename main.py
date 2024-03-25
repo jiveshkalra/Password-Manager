@@ -114,7 +114,7 @@ def main():
           ---------------------------------------------------------------------
     ''')
         
-    choice = input("Enter the action you want to do : ")
+    choice = input("Choose the action you want to do : ")
     if choice == '1':
         print("Generating Key...")
         pw.generate_key()
