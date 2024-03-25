@@ -1,4 +1,4 @@
-# Password Manager
+# Yet Another Password Manager
 
 A simple and secure **Open Source password manager** built with Python. It allows you to securely store and manage all your passwords in one place. With Password Manager, you can store passwords securely, and easily access them whenever you need them.
 
