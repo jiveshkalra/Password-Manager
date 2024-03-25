@@ -49,6 +49,6 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 This project is licensed under the [MIT License](LICENSE).
 
 ## Features to Implement  ->
-[ ] Chrome Extension  
-[ ] UI
-[ ] Export passwords feature 
+- [ ] Chrome Extension 
+- [ ] UI
+- [ ] Export passwords feature 
