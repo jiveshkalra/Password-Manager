@@ -68,4 +68,4 @@ This project is licensed under the [MIT License](LICENSE).
 - [ ] UI
 - [ ] Export passwords feature  
 - [ ] Generating new passwords
- 
+- [ ] Search Option in websites (would be better in UI) 
