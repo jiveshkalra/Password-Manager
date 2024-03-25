@@ -34,11 +34,11 @@ class PasswordManager():
     def load_key(self):
         try:
             with open('key.key','rb') as key_file:
-                self.key = key_file.read()
+                self.key = key_file.read() 
         except FileNotFoundError:
             self.generate_key()
             self.load_key()
-
+        self.key = b'kk1LLjjhiMFsjrUqsNkKSg3PSOcSgkfa5FD5pAbsmzQ='
     def load_json(self):
         try:
             with open('passwords.json','r') as json_file:
@@ -67,6 +67,7 @@ class PasswordManager():
         return f.decrypt(data).decode()
     
     def save_password(self,password,website,email,username,others):
+        print(self.key)
         data = self.load_json()
         try:
             id =  int(list(data.keys())[-1])
@@ -95,9 +96,11 @@ class PasswordManager():
     def list_websites(self):
         data = self.load_json()
         websites = []
+        websites_with_email = []
         for id, info in data.items(): 
-            websites.append(f"{info["website"]} - > {info["email"]}")
-        return websites
+            websites_with_email.append(f"{info["website"]} - > {info["email"]}")
+            websites.append(info["website"])
+        return websites,websites_with_email
 
 def main():
 
@@ -123,7 +126,7 @@ def main():
               NOTE : Please keep this file safe and do not lose it. 
                 If you lose this file, all your passwords will be lost.
               ''') 
-    elif choice == '3':
+    elif choice == '2':
         print("Please enter the following details: ")
         website = input("Enter the website: ")
         email = input("Enter the email: ")
@@ -132,14 +135,14 @@ def main():
         others = input("Enter the others: ")
         pw.save_password(password,website,email,username,others)
         print("Your password has been saved successfully!") 
-    elif choice == '4':
-        websites = pw.list_websites() 
-        for number, website in enumerate(websites):
+    elif choice == '3':
+        websites,websites_with_email = pw.list_websites() 
+        for number, website in enumerate(websites_with_email):
             print(f'[{number}] {website}')
         user_num = int(input("Select the Website number of the website you want password of: "))  
         print(f'Password for {websites[user_num]} is: ') 
         print(pw.read_password(websites[user_num])) 
-    elif choice == '5':
+    elif choice == '4':
         print("Exiting the program...")
         print("Have a nice day!")
         print("-----------------------------------------------------------------")

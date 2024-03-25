@@ -1,6 +1,6 @@
 # Password Manager
 
-A simple and secure password manager built with [insert programming language/framework here].
+A simple and secure Open Source password manager built with Python. It allows you to securely store and manage all your passwords in one place. With Password Manager, you can generate strong and unique passwords, store them securely, and easily access them whenever you need them.
 
 ## Table of Contents
 
@@ -17,11 +17,14 @@ In today's digital age, it's important to have strong and unique passwords for a
 
 ## Features
 
-- Securely store and manage passwords
-- Generate strong and unique passwords
-- Easy-to-use interface
-- Encrypted storage for enhanced security
-- Cross-platform compatibility
+- **Secure Storage:** Password Manager uses encrypted storage to ensure the security of your passwords.
+- **Password Generation:** Generate strong and unique passwords with just a click.
+- **Easy-to-Use Interface:** The user-friendly interface makes it simple to manage your passwords.
+- **Cross-Platform Compatibility:** Password Manager works on multiple platforms, allowing you to access your passwords from anywhere.
+
+## How it Works
+
+Password Manager uses advanced encryption algorithms to securely store your passwords. When you save a password, it is encrypted and stored in the password database. The encryption key is generated during setup and is required to access the passwords. This key should be kept safe and not shared with anyone.
 
 ## Installation
 
@@ -52,3 +55,4 @@ This project is licensed under the [MIT License](LICENSE).
 - [ ] Chrome Extension 
 - [ ] UI
 - [ ] Export passwords feature 
+- [ ] Generating new passwords
