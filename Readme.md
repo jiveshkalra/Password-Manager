@@ -36,9 +36,9 @@ Thats it!
 
 To use the Password Manager, follow these steps:
 
-##1. Run the `main.py`
-##2. First Generate the Secret KEY (make sure to keep this key somewhere safe in secret!)
-##3. Save your passwords and get them whenver you want from the cli! 
+### 1. Run the `main.py`
+### 2. First Generate the Secret KEY (make sure to keep this key somewhere safe in secret!)
+### 3. Save your passwords and get them whenver you want from the cli! 
 
 ## Contributing
 
