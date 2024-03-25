@@ -96,7 +96,7 @@ class PasswordManager():
         data = self.load_json()
         websites = []
         for id, info in data.items(): 
-            websites.append(info["website"])
+            websites.append(f"{info["website"]} - > {info["email"]}")
         return websites
 
 def main():
@@ -107,9 +107,9 @@ def main():
           --------------- Welcome to Password Manager v0.1 -----------------
                                                      -- Made By Jivesh Kalra 
           Functions you can try : 
-          1. Generate Key - Generates a new key for you to use   (ONLY TO BE DONE ONE TIME)
-          2. Save Password - Save a password for a website (takes password, website, email, username, others as input) 
-          3. List Websites - Lists all the websites for which you have saved passwords
+          1. Generate Key - Generates a new key for encrypting passwords (ONLY TO BE DONE ONE TIME)
+          2. Save Password - Save a password for a website (requires password, website, email, username, and optional additional information)
+          3. List Websites and Retrieve Password - Lists all the websites for which you have saved passwords and allows you to retrieve the passwords
           4. Exit - Exits the program
           ---------------------------------------------------------------------
     ''')
