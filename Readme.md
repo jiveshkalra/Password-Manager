@@ -1,6 +1,6 @@
 # Password Manager
 
-A simple and secure Open Source password manager built with Python. It allows you to securely store and manage all your passwords in one place. With Password Manager, you can generate strong and unique passwords, store them securely, and easily access them whenever you need them.
+A simple and secure **Open Source password manager** built with Python. It allows you to securely store and manage all your passwords in one place. With Password Manager, you can store passwords securely, and easily access them whenever you need them.
 
 ## Table of Contents
 
@@ -12,6 +12,7 @@ A simple and secure Open Source password manager built with Python. It allows yo
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Upcoming Features](#upcoming-features)
 
 ## Introduction
 
@@ -62,7 +63,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Features to Implement  
+## Upcoming Features
 - [ ] Chrome Extension 
 - [ ] UI
 - [ ] Export passwords feature  
